@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+.vertical-line {
+    height: 10px; /* Adjust the height of the line */
+    background-color: #333; /* Adjust the color of the line */
+}
+
+.firstpage {
+    background: url('images/cover-a1f9ff12.jpg') no-repeat center center/cover;
+    box-shadow: inset 0 10px 0 2000px rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    display: flex;
+    color: #fff;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    position: relative;
+}
+
+.firstpage img {
+    position: absolute;
+    top: 1rem;
+    left: 2.5rem;
+    width: 150px;
+}
+
+.firstpage .btn {
+    text-decoration: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #e50914;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+
+.text {
+    text-align: center;
+    left: 2rem;
+    right: 2rem;
+    padding-top: 11rem;
+}
+.firstpage .text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 800;
+}
+
+.firstpage .text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.firstpage .email {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.firstpage input {
+    padding: 1.2rem;
+    background-color:  transparent;
+    backdrop-filter: blur(1.4px);
+    border: 1px solid skyblue;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 400px;
+    color: #fff;
+}
+.firstpage .btns {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    width: 200px;
+}
+
+.secondpage {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    text-align: start;
+}
+
+.lol h1{
+    padding-right: 2rem;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.lol p {
+    padding-right: 2rem;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.secondpage img {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 1rem;
+}
+
+.thirdpage {
+    display: flex;
+    align-items: center;
+}
+
+.thirdpage img {
+    width: 600px;
+    height: auto;
+    display: block;
+}
+.main-over {
+    position: relative;
+    display: inline;
+}
+.thirdpage .over {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    background-color: #000;
+    border: 2px solid seagreen;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 400px;
+    top: 70%;
+    left: 15.5%;
+}
+
+.thirdpage .over img {
+    width: 50px;
+    margin-right: 1rem;
+}
+.over i {
+    color: #fff;
+    font-size: 2rem;
+    height: 100%;
+    margin-left: 5rem;
+}
+.over .down {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 1rem;
+    line-height: 1rem;
+}
+.over .down span {
+    color: blue;
+}
+.thirdpage  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.thirdpage p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+/* Fourth Page Styling */
+.fourthpage {
+    display: flex;
+    align-items: start;
+    text-align: left;
+    padding: 1rem 5rem;
+    margin-left: 7rem;
+}
+
+.fourthpage h1 {
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.fourthpage p {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.blank {
+    width: 100%;
+    height: 300px;
+    background-color: #000;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 400px;
+    margin-bottom: 1rem;
+}
+
+.fifthpage {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    text-align: left;
+}
+
+.fifthpage img {
+    width: 80%;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+
+.fifthpage h1 {
+    display: flex;
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.sixthpage {
+    padding: 2rem;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.sixthpage h1 {
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.sixthpage .quest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 1.5rem;
+    background-color: #333;
+    cursor: pointer;
+}
+
+.sixthpage i {
+    font-size: 2rem;
+    cursor: pointer;
+}
+.sixthpage .email {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+.sixthpage .foot {
+    margin: 5rem;
+    font-size: 1.5rem;
+    justify-content: center;
+    text-align: center;
+}
+.sixthpage input {
+    padding: 1.2rem;
+    background-color:  transparent;
+    backdrop-filter: blur(1.4px);
+    border: 1px solid skyblue;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 400px;
+    color: #fff;
+}
+.sixthpage .btns {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 1rem;
+    width: 200px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    background-color: #000;
+    color: #fff;
+    font-weight: 500;
+}
+
+footer p {
+    font-size: 1.5rem;
+}
+
+footer .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+footer .links a {
+    color: #77a3d2;
+}
+
+footer button {
+    padding: 0.4rem;
+    width: 7rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #18191f;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+footer button img {
+    width: 1.2rem;
+    margin-right: 0.5rem;
+}
